@@ -1,0 +1,197 @@
+
+@media (min-width: 576px)  and (max-width: 767px){ 
+    .contacts {
+        padding: 40px 0 40px 30px;
+    }
+    .name-section{
+        padding-left: 30px;
+    }
+    .img-margin {
+        margin-right: 30px;
+    }
+    .box-margin {
+        margin: 30px;
+    }
+    section .box-tab {
+        margin: 60px 40px 0 40px;
+    }
+    section .tab {
+        float: none;
+        width: 100%;
+    }
+    section .tab button {
+        display: inline-block;
+        width: 31%;
+        margin-bottom: 20px;
+        border-width: 3px;
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+    .tabcontent {
+        width: 92%;
+    }
+    .text-logist{
+        font-size: 14px;
+        margin-bottom: 85px;
+    }
+    .text-logist-head{
+        font-size: 24px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){ 
+    section .box-tab {
+        margin: 60px 60px 0 60px;
+    }
+    section .tab {
+        float: none;
+        width: 100%;
+    }
+    section .tab button {
+        display: inline-block;
+        width: 31%;
+        margin-bottom: 20px;
+        border-width: 3px;
+        font-size: 20px;
+        padding: 10px 14px;
+    }
+    .tabcontent {
+        width: 92%;
+    }
+    .text-logist{
+        font-size: 14px;
+        margin-bottom: 85px;
+    }
+    .text-logist-head{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) { 
+    section .box-tab {
+        margin: 60px 60px 0 60px;
+    }
+    section .tab {
+        float: left;
+        width: 100%;
+    }
+    .tab button {
+        display: inline-block;
+        width: 31%;
+        margin-bottom: 20px;
+        border-width: 3px;
+        font-size: 20px;
+    }
+    section .tabcontent {
+        width: 92%;
+    }
+    section .text-logist{
+        font-size: 16px;
+        margin-bottom: 85px;
+    }
+    
+}
+
+@media (min-width: 1200px) { 
+    
+section .box-tab {
+    width: 96%;
+    margin: 60px 80px 0 80px;
+}
+
+section .tab {
+    float: left;
+    width: 23%;
+    height: auto;
+}
+
+/* Style the buttons inside the tab */
+section .tab button {
+    display: block;
+    background-color: inherit;
+    color: rgb(250, 81, 20); 
+    padding: 12px 16px;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 25px;
+    border-style: solid none solid none;
+    border-color: rgb(143, 129, 129);
+    border-width: 1px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(250, 81, 20); 
+    color: white;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: rgb(250, 81, 20); 
+    color: white;
+}
+
+/* Style the tab content */
+section .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: none;
+    width: 70%;
+    border-left: none;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+section .box-transport{
+    width: 99%;
+    margin: 0 auto;
+}
+section .text-transport-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+section .text-transport{
+    font-size: 17px;
+}
+
+section .box-img-logist{
+    width: 90%;
+    margin: 20px auto;
+}
+section .box-img-logist-paddng{
+    padding-bottom: 40px;
+}
+section .text-logist{
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+section .text-logist-head{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(250, 81, 20); 
+}
+section .box-quote {
+    width: 100%;
+   background-color: black;
+   color: white;
+   padding: 20px;
+   margin: 30px 0;
+}
+.list-box{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.img-leasing{
+    padding-left: 20px;
+    /* width: 48%; */
+}
+.col-list{
+    margin-top: 50px;
+}
+ }

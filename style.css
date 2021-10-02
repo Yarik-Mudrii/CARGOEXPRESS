@@ -1,0 +1,685 @@
+@import "page2.css";
+@import "media-page.css";
+body {
+    font-family: 'Glory', sans-serif;
+}
+
+.navbar-toggle {
+    z-index: 1099;
+    position: absolute; 
+    margin-left: 30px;
+}
+
+.navbar-inverse .collapse{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.navbar-inverse .navbar-collapse {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+}   
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.data {
+    height: 3em;
+    width: 100%;
+}
+
+.contact-data {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.e-mail {
+    text-decoration: none;
+   color: black;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.e-mail:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-envelope-o,
+.fa-clock-o,
+.fa-phone {
+    color: rgb(250, 81, 20);
+    font-size: 16px;
+}
+
+.logo {
+    height: 8em;
+    background: rgb(250, 81, 20);
+}
+
+.img-logo {
+    padding-top: 1.5em;
+}
+
+.navbar {
+    width: 100%;
+    height: 52px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    border-bottom: 1px solid rgb(250, 81, 20);            
+}
+
+.active-nav {
+    border-bottom: 1px solid rgb(250, 81, 20);
+}
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+    
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    position: relative;
+}
+
+.name-quote {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.quote{
+    font-size: 30px;
+}
+
+.btn-learn-more{
+    padding: 15px 50px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-learn-more:hover{
+    color: black;
+    text-decoration: none;
+    background: white;
+}
+
+.carousel-caption h3,
+.carousel-caption p,
+.carousel-caption a {
+    margin-bottom: -40px;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -o-animation-name: slidein;
+    animation-name: slidein;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-direction:normal;
+    -o-animation-direction:normal;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-bottom: -40px;
+      opacity: 0;
+    }
+  
+    to {
+        margin-bottom: 40px;
+        opacity: 1;
+    }
+  }
+
+/* section 1 --------------------------------------------------------------*/
+.services {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+.name-section {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.line-orange {
+    width: 70px;
+    height: 3px;
+    background: rgb(250, 81, 20);
+    margin: 25px auto;
+}
+.box-services-icon{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+ .service-icon {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 120px;
+    background: rgb(250, 81, 20);
+    color: white;
+    font-size: 42px;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+}
+.paragraf-service {
+    font-size: 14px;
+}
+.box-service {
+    margin-left: 100px;
+    margin-top: 55px;
+}
+.service-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* section 2 -------------------------------------------------------*/
+.counters {
+    width: 100%;
+    height: 370px;
+    background-color: rgb(61, 57, 57);
+    float: left;
+}
+.name-section-white {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px;
+}
+.number {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.number-realization {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(201, 192, 192);
+    text-align: center;
+}
+
+/* section 3------------------------------------------------------------- */
+.our-services {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    float: left;
+}
+.text-transportation{
+    font-size: 17px;
+    text-align: center;
+    margin: 60px auto;
+}
+.img-services-info{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+.img-probel {
+    margin-top: 30px;
+}
+.btn-top{
+    padding-top: 50px;
+}
+
+.img-filter {
+    -webkit-filter: opacity(0.7);
+    filter: opacity(0.7);
+    width: 100%;
+}
+.box-our-services:hover .img-filter {
+    -webkit-filter: none;
+    filter: none;
+}
+.box-our-services:hover .box-our-services-body {
+    width: 200px; 
+    padding-left: 20px;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.img-probel2{
+    margin-top: 0;
+}
+.service-transportation{
+    padding-left: 20px;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+.service-transportation:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.box-our-services-body {
+    z-index: 99;
+    background: rgb(250, 81, 20);
+    width: 160px;
+    height: 27px;
+    color: white;
+    position: absolute;
+    left: 15px; top: 40%;
+    
+}
+.box-our-services-body2 {
+    z-index: 100;
+    background: rgb(250, 81, 20);
+    width: 160px;
+    height: 27px;
+    color: white;
+    position: absolute;
+    left: 15px; top: 93%;
+}
+.box-our-services:hover .box-our-services-body2 {
+    width: 200px; 
+    padding-left: 20px;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    
+}
+.btn-all{
+    width: 220px;
+    height: 60px;
+    border: 3px solid rgb(250, 81, 20);
+    color: rgb(250, 81, 20);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+.btn-all:hover{
+    border: 3px solid rgb(175, 49, 3);
+    background: rgb(175, 49, 3);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+/* section 4------------------------------------------------------------- */
+.our-team {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgb(61, 57, 57);
+    float: left;
+}
+.photo-box {
+    width: 96%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.shadow {
+-webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  width: 100%;
+}
+.box-icon {
+    margin-bottom: -40px;
+    display: none;
+}
+.box-header:hover .box-icon{
+    -ms-transform: translateY(-45px); /* IE 9 */
+    -webkit-transform: translateY(-45px);
+    display: block;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    transform: translateY(-45px);
+} 
+.box-header:hover .box-up{
+    -ms-transform: translateY(-45px); /* IE 9 */
+    -webkit-transform: translateY(-45px);
+    transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transform: translateY(-45px);
+}
+.box-member-body{
+    color: #fff;
+    padding: 8px 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    z-index: 2;
+}
+.box-member-body p {
+    color: #c1c1c1;
+    font-size: 18px;
+}
+.icon-contact{
+    padding: 5px;
+    color: #c1c1c1;
+    font-size: 16px; 
+}
+.icon-contact:hover{
+    text-decoration: none;
+    color: white;  
+}
+/* section 5------------------------------------------------------------- */
+.news-post {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    float: left;
+}
+.news-position {
+    width: 96%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.header-news{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(250, 81, 20);
+    text-decoration: none;
+}
+.header-news:hover{
+    text-decoration: none;
+    color: rgb(250, 81, 20);
+}
+.time-news {
+    margin: 10px 0;
+    color: darkgray;
+    font-size: 16px;
+}
+.paragraf-news {
+    font-size: 18px;
+}
+.img-news {
+    width: 100%;
+}
+/* footer--------------------------------------------------------------- */
+.footer {
+    height: 19em;
+    background: rgb(61, 57, 57);
+}
+
+.img-logo-footer {
+    margin-top: 4.5em;
+}
+
+.social-icon {
+    width: 100%;
+    text-align: center;
+    margin: 1em 0;
+    
+}
+.social {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.social:hover {
+    text-decoration: none;
+    color: rgb(250, 81, 20);
+}
+.copyright{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+/* button return top */
+#top{
+    right:30px;
+    bottom: 30px;
+    position: fixed;
+    opacity: 0;
+}
+
+.btn-up {
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(119, 104, 104);
+    border: none;
+}
+
+.btn-up:hover {
+    background-color: rgb(250, 81, 20);
+    color: black;
+    color: white;
+}
+
+/* navigation fixed */
+.glue {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(32, 31, 31);
+    border-color: rgb(32, 31, 31);
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+/* media=-----------------------
+--------------------------------------------------------------- */
+
+@media (min-width: 576px) and (max-width: 767px) { 
+   
+
+    .carousel-caption .name-quote {
+        display: none;
+    }
+    .carousel-caption .quote{
+        font-size: 14px;
+    }
+    .carousel-caption .btn-learn-more{
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+    @keyframes slidein {
+        from {
+          margin-bottom: -40px;
+          opacity: 0;
+        }
+      
+        to {
+            margin-bottom: 20px;
+            opacity: 1;
+        }
+      }
+
+    section .box-service {
+        margin-top: 65px;
+        
+    }
+
+    section .img-probel2{
+        margin-top: 30px;
+    }
+    section .box-our-services-body2 {
+        top: 86%;
+    }
+    section .box-our-services-body {
+        top: 34%;
+    }
+    section  .photo-box {
+        width: 80%;
+    }
+    section .shadow {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    section .news-position {
+        width: 50%;
+    }
+    section .header-news{
+        font-size: 18px;
+    }
+    section .time-news {
+        font-size: 14px;
+    }
+    section .paragraf-news {
+        font-size: 16px;
+    }
+    
+    section .navbar-nav {
+    float: none;
+    text-align: center;
+    }
+    .navbar-nav li {
+    float: none;
+    display: inline;
+    }
+ }
+
+
+@media (min-width: 768px) and (max-width:991px) { 
+    
+   
+
+
+    .carousel-caption .name-quote {
+        display: none;
+    }
+    .carousel-caption .quote{
+        font-size: 18px;
+    }
+    .carousel-caption .btn-learn-more{
+        padding: 10px 40px;
+    }
+
+    section .img-probel2{
+        margin-top: 0;
+    }
+    section .box-our-services-body2 {
+        top: 86%;
+    }
+    section .box-our-services-body {
+        top: 34%;
+    }
+    section  .photo-box {
+        width: 96%;
+    }
+    section .news-position {
+        width: 96%;
+    }
+    section .header-news{
+        font-size: 18px;
+    }
+    section .time-news {
+        font-size: 14px;
+    }
+    section .paragraf-news {
+        font-size: 16px;
+    }
+    
+ }
+ 
+
+
+@media (min-width: 992px) and (max-width:1199px) { 
+    .carousel-caption .name-quote {
+        font-size: 50px;
+    }
+    .carousel-caption .quote{
+        font-size: 22px;
+    }
+    .carousel-caption .btn-learn-more{
+        padding: 10px 50px;
+    }
+
+    section .paragraf-service {
+        font-size: 13px;
+    }
+    .service-name {
+        font-size: 16px;
+    }
+    section .img-probel2{
+        margin-top: 0;
+    }
+    section .box-our-services-body2 {
+        top: 90%;
+    }
+    section .box-our-services-body {
+        top: 37%;
+    }
+    section .news-position {
+        width: 96%;
+    }
+    section .header-news{
+        font-size: 20px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .carousel-caption .name-quote {
+        font-size: 70px;
+    }
+    .carousel-caption .quote{
+        font-size: 30px;
+    }
+    .carousel-capton .btn-learn-more{
+        padding: 15px 50px;
+    }
+
+
+    section .paragraf-service {
+        font-size: 14px;
+    }
+    .service-name {
+        font-size: 20px;
+    }
+    section .img-probel2{
+        margin-top: 0;
+    }
+    section .photo-box {
+        width: 96%;
+    }
+    section .news-position {
+        width: 96%;
+    }
+ }

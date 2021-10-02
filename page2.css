@@ -1,0 +1,302 @@
+.intro-page {
+    position: relative;
+}
+
+.img-textura {
+    width: 100%;
+    height: 300px;
+}
+
+.paragraf {
+    position: absolute;
+    top: 0;
+	left: 0;
+    width: 100%;
+    height: 100%;  
+    display: block;
+    text-align: center;
+}
+
+.gallery {
+    color: white;
+    font-size: 58px;
+    font-weight: 700;
+    padding-top: 110px;
+    padding-bottom: 10px;
+}
+
+.btn-home {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-home:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.page-two {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.img-margin {
+    margin-left: 30px;
+}
+.img-truck{
+    width: 100%;
+}
+.box-margin {
+    font-size: 16px;
+    margin-right: 40px;
+}
+.prof-team{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(250, 81, 20);
+}
+
+.box-human-works {
+    width: 100%;
+    margin-top: 50px;
+}
+.box-column {
+    width: 86%;
+    height: auto;
+    margin-left: 7%;
+}
+
+.box-contact {
+    color: black;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box-contact:hover {
+    color: rgb(250, 81, 20);
+    text-decoration: none;
+}
+
+/* page contact */
+.our-contact {
+    width: 100%;
+    height: 500px;
+}
+
+.city-center {
+    padding: 40px;
+    font-size: 16px;
+}
+
+.contacts {
+    padding: 40px 0 40px 0;
+}
+
+.padding {
+    padding: 0;
+}
+
+.contacts input {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+.contacts textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.contacts input[type=submit] {
+    background-color: #eb1404;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 20px 0 0;
+}
+
+.contacts input[type=submit]:hover {
+    background-color: #d5e829;
+    color: black;
+}
+
+.contacts button[type=submit] {
+    color: rgb(56, 53, 53);
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 110px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.contacts button[type=submit]:hover {
+    background: rgb(56, 53, 53);
+    color: white;
+}
+
+/* page gallery */
+.box-gallery-img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.nav-pills > li > a {
+   color: rgb(250, 81, 20);  
+   font-size: 18px;
+   font-weight: bold;
+}
+.nav-pills > li > a:hover {
+    background-color: rgb(250, 81, 20); 
+    color: white; 
+ }
+
+.row2 {
+    -ms-display: flex; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column2 {
+    -ms-flex: 33%; /* IE10 */
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.img-width {
+    width: 100%;
+}
+
+/* page services */
+
+.box-tab {
+    width: 96%;
+    margin: 60px 80px 0 80px;
+}
+
+.tab {
+    float: left;
+    width: 23%;
+    height: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: rgb(250, 81, 20); 
+    padding: 12px 16px;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 25px;
+    border-style: solid none solid none;
+    border-color: rgb(143, 129, 129);
+    border-width: 1px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(250, 81, 20); 
+    color: white;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: rgb(250, 81, 20); 
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: none;
+    width: 76%;
+    border-left: none;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+.box-transport{
+    width: 99%;
+    margin: 0 auto;
+}
+.text-transport-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-transport{
+    font-size: 17px;
+}
+
+.box-img-logist{
+    width: 90%;
+    margin: 20px auto;
+}
+.box-img-logist-paddng{
+    padding-bottom: 40px;
+}
+.text-logist{
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+.text-logist-head{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(250, 81, 20); 
+}
+.box-quote {
+    width: 100%;
+   background-color: black;
+   color: white;
+   padding: 20px;
+   margin: 30px 0;
+}
+.list-box{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.img-leasing{
+    padding-left: 20px;
+    width: 48%;
+}
+.col-list{
+    margin-top: 50px;
+}
